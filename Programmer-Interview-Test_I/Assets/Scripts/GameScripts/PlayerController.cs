@@ -59,10 +59,24 @@ public class PlayerController : MonoBehaviour
 
             Debug.DrawRay(transform.position, directionVector, Color.green);
 
-            if (Physics.Raycast(transform.position + new Vector3(0, 0.5f, 0), directionVector, out RaycastHit _coinHit, navRange, GameData.coinLayerMask))
+            transform.position = transform.position + new Vector3(0, 0, walkSpeed * Time.deltaTime);
+
+            if (!Physics.Raycast(transform.position, transform.forward, out RaycastHit _Hit, navRange, GameData.obstacleLayerMask))
+            {
+                transform.Translate(Vector3.forward * walkSpeed * Time.deltaTime);
+            }
+
+            if (Physics.Raycast(transform.position + new Vector3(0, walkSpeed, 0), directionVector, out RaycastHit _hit, navRange, GameData.obstacleLayerMask))
+            {
+                MenuManager.Manager.PopMenu(false);
+                MenuManager.Manager.DisplayDeathMenu();
+            }
+
+            if (Physics.Raycast(transform.position + new Vector3(0, walkSpeed, 0), directionVector, out RaycastHit _coinHit, navRange, GameData.coinLayerMask))
             {
                 _coinHit.collider.GetComponent<Coin>().Destroy();
             }
+
 
             yield return null;
         }

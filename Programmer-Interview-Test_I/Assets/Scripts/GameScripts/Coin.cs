@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class Coin : MonoBehaviour
 {
-    private readonly int instanceID = -1;
+    public int instanceID = -1;
 
     public Coin(int _instanceID)
     {
         instanceID = _instanceID;
     }
-
     public void Destroy()
     {
         GameData.coinsCollectedOnRun++;
