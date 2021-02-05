@@ -1,0 +1,236 @@
+fileFormatVersion: 2
+guid: e8fec4b100ce99c48bd7c1a70af1a02e
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Beam
+    100002: Beam_End
+    100004: Beem_Fix
+    100006: Body
+    100008: Camera
+    100010: Head
+    100012: Head_1
+    100014: Jaw
+    100016: Jaw_1
+    100018: Joint_(1)
+    100020: Joint_(2)
+    100022: Joint_(3)
+    100024: Joint_(4)
+    100026: Joint_(5)
+    100028: Joint_(6)
+    100030: L_Arm_Lower
+    100032: L_Arm_Upper
+    100034: L_Arm_Upper_(2)_POLE
+    100036: L_Foot
+    100038: L_Hand
+    100040: L_Leg_Lower
+    100042: L_Leg_Upper
+    100044: L_Leg_Upper_(2)_POLE
+    100046: Left_Arm_Pole
+    100048: Left_Foot_GOAL
+    100050: Left_Hand_GOAL
+    100052: Left_Leg_Pole
+    100054: R_Arm_Lower
+    100056: R_Arm_Upper
+    100058: R_Arm_Upper_(2)_POLE
+    100060: R_Foot
+    100062: R_Hand
+    100064: R_Leg_Lower
+    100066: R_Leg_Upper
+    100068: R_Leg_Upper_(2)_POLE
+    100070: Right_Arm_Pole
+    100072: Right_Foot_GOAL
+    100074: Right_Hand_GOAL
+    100076: Right_Leg_Pole
+    100078: Root
+    100080: Shoulders
+    100082: Tail
+    100084: Tail_(1)
+    100086: Tail_(2)
+    100088: Tail_(3)
+    100090: Tail_(4)
+    100092: Waist
+    100094: zilla
+    100096: //RootNode
+    400000: Beam
+    400002: Beam_End
+    400004: Beem_Fix
+    400006: Body
+    400008: Camera
+    400010: Head
+    400012: Head_1
+    400014: Jaw
+    400016: Jaw_1
+    400018: Joint_(1)
+    400020: Joint_(2)
+    400022: Joint_(3)
+    400024: Joint_(4)
+    400026: Joint_(5)
+    400028: Joint_(6)
+    400030: L_Arm_Lower
+    400032: L_Arm_Upper
+    400034: L_Arm_Upper_(2)_POLE
+    400036: L_Foot
+    400038: L_Hand
+    400040: L_Leg_Lower
+    400042: L_Leg_Upper
+    400044: L_Leg_Upper_(2)_POLE
+    400046: Left_Arm_Pole
+    400048: Left_Foot_GOAL
+    400050: Left_Hand_GOAL
+    400052: Left_Leg_Pole
+    400054: R_Arm_Lower
+    400056: R_Arm_Upper
+    400058: R_Arm_Upper_(2)_POLE
+    400060: R_Foot
+    400062: R_Hand
+    400064: R_Leg_Lower
+    400066: R_Leg_Upper
+    400068: R_Leg_Upper_(2)_POLE
+    400070: Right_Arm_Pole
+    400072: Right_Foot_GOAL
+    400074: Right_Hand_GOAL
+    400076: Right_Leg_Pole
+    400078: Root
+    400080: Shoulders
+    400082: Tail
+    400084: Tail_(1)
+    400086: Tail_(2)
+    400088: Tail_(3)
+    400090: Tail_(4)
+    400092: Waist
+    400094: zilla
+    400096: //RootNode
+    2100000: Zilla
+    2100002: fire
+    4300000: zilla
+    4300002: Beam
+    7400000: Base Stack
+    9500000: //RootNode
+    13700000: Beam
+    13700002: zilla
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Zilla
+    second: {fileID: 2100000, guid: 2b7f79756d2b1004cb0651e14889d8e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fire
+    second: {fileID: 2100000, guid: 2b7f79756d2b1004cb0651e14889d8e0, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Base Stack
+      takeName: Base Stack
+      firstFrame: 102
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
